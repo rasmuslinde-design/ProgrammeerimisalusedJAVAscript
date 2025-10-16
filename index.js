@@ -102,3 +102,20 @@
 //   circumference = 2 * PI * radius;
 //   document.getElementById("myH3").textContent = circumference + "cm";
 // };
+
+// MATH
+
+// console.log(Math.PI);
+// let x = 3.21;
+// let y = 2;
+// let z;
+
+// z = Math.round();
+// z = Math.floor();
+// z = Math.ceil();
+// z = Math.trunc();
+// z = Math.pow(x, y);
+// z = Math.sqrt(x);
+// z = Math.sin(x);
+// let max = Math.max(x,y,z);
+// let min = Math.min(x,y,z);
