@@ -7,13 +7,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1 id="myH1">Enter the radius of a circle:</h1>
+    <h1 id="myH1"></h1>
+<input type="checkbox" id="myCheckbox">
+<label for="myCheckbox">Subscribe</label><br><br>
 
-    <label>Radius</label>
-    <input type="text" id="myText" /><br /><br />
-    <button id="mySubmit">Submit</button>
-    <h3 id="myH3"></h3>
+<input type="radio" id="visaBtn" name="card">
+<label for="visaBtn">VISA</label><br>
+<input type="radio" id="masterCardBtn" name="card">
+<label for="masterCardBtn">Mastercard</label><br>
+<input type="radio" id="payPalBtn" name="card">
+<label for="payPalBtn">PayPal</label><br><br>
 
-    <script src="index.js"></script>
+<button type="submit" id="mySubmit">Submit</button>
+ 
+<p id="subResult"></p>
+<p id="paymentResult"></p>
+
+    <script src="tingimuslaused.js"></script>
   </body>
 </html>
