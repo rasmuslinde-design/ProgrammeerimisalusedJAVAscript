@@ -59,10 +59,10 @@
 //   }
 // if (age >= 18) {
 //   resultElement.textContent = ("Old enough");
-// } 
+// }
 // else if (age < 0) {
 //   resultElement.textContent = ("Your age cant be below 0");
-// } 
+// }
 // else{
 //   resultElement.textContent = ("Not old enough");
 // }
@@ -95,7 +95,7 @@
 //         else{
 //                 paymentResult.textContent = `You must select payment!`;
 //         }
-            
+
 // }
 
 // ternary operator = a shortcut to if {} and else{} statements
@@ -182,7 +182,7 @@
 
 // console.log(userName.slice(1, 3)); näitab stringi antud väärtuste vahemikus
 
-// console.log(userName.repeat(3)); kordab stringi x korda 
+// console.log(userName.repeat(3)); kordab stringi x korda
 
 // console.log(userName.replace("Goblin", "Thor")); asendab stringis sõna millegi muu vastu
 
@@ -198,7 +198,6 @@
 
 // userName = userName.trim();
 // userName = userName.charAt(0).toUpperCase() + userName.slice(1).toLowerCase();
-
 
 // console.log(userName);
 // document.getElementById("myH1").textContent = `Hello ${userName}`;
@@ -238,3 +237,30 @@
 // else{
 //     console.log("That is not Pi");
 // }
+
+
+// VANUSE KONTROLLI KODUTÖÖ
+
+
+// function kontrolliVanust() {
+//   let age = prompt("Sisesta enda vanus");
+
+//   if (age < 7 || isNaN(age)) {
+//     alert("Oled liiga noor või ei lisanud vanust numbrina!");
+//     kontrolliVanust()
+//   } else {
+//     age = Number(age);
+
+//     if (age >= 7 && age <= 16) {
+//       alert("Söömine on kell 10!");
+//     } else if (age >= 17 && age <= 20) {
+//       alert("Söömine on kell 11!");
+//     } else if (age > 20 && age < 35) {
+//       alert("Söömine on kell 12!");
+//     } else {
+//       alert("Oled liiga vana");
+//     }
+//   }
+// }
+// kontrolliVanust()
+
