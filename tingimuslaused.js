@@ -264,3 +264,41 @@
 // }
 // kontrolliVanust()
 
+const x = Number(prompt('x:'));
+const y = Number(prompt('y:'));
+const tehe = prompt('Tehe:');
+
+let symbol;
+let result;
+
+switch (tehe) {
+  case 'a':
+    symbol = '+';
+    result = x + y;
+    break;
+  case 's':
+    symbol = '-';
+    result = x - y;
+    break;
+  case 'm':
+    symbol = '*';
+    result = x * y;
+    break;
+  case 'd':
+    symbol = '/';
+    result = x / y;
+    break;
+  case 'e':
+    symbol = '**';
+    result = x ** y;
+    break;
+  case 'r':
+    symbol = '%';
+    result = x % y;
+    break;
+  default:
+    alert('Arusaamatu tehe');
+
+}
+
+alert(`${x} ${symbol} ${y} = ${result}`);
